@@ -1,0 +1,83 @@
+% !TeX root = ../main.tex
+
+\chapter{章名（章節示例）}
+章內容內容內容內容內容 \\
+內容內容內容
+
+\section{節名}
+節內容內容內容內容內容 \\
+內容內容內容
+
+\subsection{小節名}
+內容內容內容 \\
+內容內容內容
+
+\subsubsection{小小節}
+內容內容內容 \\
+內容內容內容
+
+\paragraph{段}
+內容內容內容 \\
+內容內容內容
+
+\subparagraph{小段}
+內容內容內容 \\
+內容內容內容
+
+
+\section{文字}
+第一行。
+仍是第一行。 \\
+第二行。
+
+
+\section{圖片}
+
+\subsection{插入圖片}
+
+\begin{enumerate}
+    \item 附錄中的圖應編為「附圖」，並須編入圖目次中。    
+    \item 附錄中的圖編碼方式應與正文中的圖編碼一致。例如：
+    \begin{itemize}
+        \item 正文中「圖一」，附錄則用「附圖一」；
+        \item 正文中「圖 1」，附錄則用「附圖 1」，以此類推。
+    \end{itemize}    
+    \item 附圖標題置於正下方，並且中對齊。    
+    \item 如引用他人資料，務必於附圖標題下方註明來源，並且置中對齊。
+\end{enumerate}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.2\textwidth]{seal.eps}
+    \caption{插入單一圖片width0.2}
+    \label{fig:insert-single-image}
+\end{figure}
+
+\subsection{插入單一圖片}
+可透過調整width來設定圖片的寬度
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.4\textwidth]{seal.eps}
+    \caption{插入單一圖片width0.4}
+    \label{fig:insert-single-image}
+\end{figure}
+
+
+\newpage
+
+
+\subsection{插入多張圖片}
+引用網路上的圖片，根據學術引用規範（例如 APA、MLA、Chicago 等），應該標註圖片來源。你可以在圖片的標題或參考文獻中加入來源, 或以footnotetext加注於頁下 ：
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.48\linewidth]{seal.eps}
+\hfill
+\includegraphics[width=0.48\linewidth]{seal.png}
+\caption{插入多張圖片 \protect\footnotemark}
+\end{figure}
+
+\footnotetext{圖片來源：\href{https://waxinvest.com/projects/abundant-robots/}{Abundant Robotics 官方網站}（訪問日期：2025/1/16）。}
+
+

@@ -1,0 +1,73 @@
+% !TeX root = ../main.tex
+
+\chapter{章名（章節示例）}
+章內容內容內容內容內容 \\
+內容內容內容
+
+\section{節名}
+節內容內容內容內容內容 \\
+內容內容內容
+
+\subsection{小節名}
+內容內容內容 \\
+內容內容內容
+
+\subsubsection{小小節}
+內容內容內容 \\
+內容內容內容
+
+\paragraph{段}
+內容內容內容 \\
+內容內容內容
+
+\subparagraph{小段}
+內容內容內容 \\
+內容內容內容
+
+
+\chapter{文字、圖表示例}
+\section{文字換行}
+第一行。
+仍是第一行。 \\
+第二行。
+
+%\chapter{圖}
+\section{一般圖}
+%\figref{fig} is an example of a figure.
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.3\columnwidth]{seal.png}}
+    \caption{Example of a figure caption.}
+    \label{fig}
+\end{figure}
+
+
+% 插入圖片與標題
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\textwidth]{seal.png} % 圖片路徑
+    \caption{Example of a figure caption and width.}
+    \label{fig}
+\end{figure}
+
+
+%\chapter{表格}
+\section{一般表格}
+\begin{table}[h]
+    \centering
+    \caption{Solution}
+    \begin{tabular}{| l | l |}
+        \hline
+        Component & Concentration(mM) \\ \hline
+        %\ce{NaCl} & 118.0 \\ \hline
+    \end{tabular}
+\end{table}
+
+\section{自動折行表格}
+\begin{table}[h]
+    \centering
+    \begin{tabularx}{\textwidth}{| l | X |}
+        \hline
+        short & short short \\ \hline
+        long & long long long long long long long long long long  long long long long long long long long long long\\ \hline
+    \end{tabularx}
+\end{table}
