@@ -4,7 +4,7 @@
 % --------------------------------------------------
 % Version       : 1.0
 % Author        : Eric <ncnu110356511@gmail.com>
-% Repository    : https://github.com
+% Repository    : https://github.com/ncnu-ai/NCNU-Thesis-LaTeX-Template
 % Document      : https://
 % Last Updated  : 2025.02.01
 
